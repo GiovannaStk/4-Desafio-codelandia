@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet/less" type="text/css" href="style/style.less" />
+    <script src="https://cdn.jsdelivr.net/npm/less" ></script>
+    <title>Desafio #4</title>
+</head>
+<body>
+    <section class="left-side">
+        <img src="assets/img/image.svg" alt="icones de pessoas" class="img">
+    </section>
+    <section class="right-side">
+        <div class="container">
+            <p>Bem vindo de volta</p>
+            <h2>Faça login na sua conta</h2>
+            <form>
+                <div class="form-group">
+                    <label for="email" class="label-info">E-mail</label>
+                    <input type="email" name="email" class="email" required maxlength="250">
+                </div>
+                <div class="form-group">
+                    <label for="pass">Senha</label>
+                    <input type="password" name="pass" class="pass" required minlength="8">
+                </div>
+                <div class="options">
+                    <div>
+                        <input type="checkbox">
+                        <label>Lembre de mim</label>
+                    </div>
+                    <a>Esqueceu sua senha?</a>
+                </div>
+                <div class="buttons">
+                    <button>Entrar</button>
+                    <button><i class="icon-g"></i> Ou faça login com o Google</button>
+                </div>
+            </form>
+            <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+        </div>
+    </section>    
+</body>
+</html>
